@@ -6,7 +6,7 @@ import jakarta.persistence.PersistenceContext;
 import jdbc.JdbcTemplate;
 import jpa.fakehibernate.FakePersistenceContext;
 
-public class DefaultEntityManager implements EntityManager{
+public class DefaultEntityManager implements EntityManager{ //
     private FakePersistenceContext persistenceContext;
     private final JdbcTemplate jdbcTemplate;
     public DefaultEntityManager(
